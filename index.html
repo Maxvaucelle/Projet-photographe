@@ -8,59 +8,89 @@
     <title>Accueil</title>
   </head>
   <body>
-    <div id="background">
-        <img src="/ressources/wallpaper.jpg" alt="Photo montagne" />
-      </div>
     <header>
-      <nav>
-        <div class="logo">
-          <img
-            src="/ressources/shine-camera-and-two-photographs-with-silhouettes-of-the-city.png"
-            alt="logo photographe"
-          />
-        </div>
-        <div class="navTexte">
-          <div class="titre">
-            <h1>MaxWell <span class="gris">Professionnal</span> Photography</h1>
-          </div>
-          <div class="menu-burger">
-            <ul>
-              <li><a href="">Accueil</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Galerie</a></li>
-              <li><a href="">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <img src="/ressources/wallpaper.jpg" alt="Photo montagne" />
     </header>
+    <nav>
+      <div class="logo">
+        <img
+          src="/ressources/shine-camera-and-two-photographs-with-silhouettes-of-the-city.png"
+          alt="logo photographe"
+        />
+      </div>
+      <div class="navTexte">
+        <div class="titre">
+          <h1>MaxWell <span class="gris">Professionnal</span> Photography</h1>
+        </div>
+        <div class="menu-burger">
+          <ul>
+            <li><a href="">Accueil</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Galerie</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <main>
       <div class="presentation">
-       
         <div class="presentationTitre">
           <h2>Galerie</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            cupiditate, repellendus sit omnis reprehenderit distinctio <br><br> quos
-            vitae id, aliquam hic quibusdam illo modi eius veritatis culpa
+            cupiditate, repellendus sit omnis reprehenderit distinctio
+            <br /><br />
+            quos vitae id, aliquam hic quibusdam illo modi eius veritatis culpa
             dolorem, rerum enim iste?
           </p>
         </div>
-        <div class="galerie1">
-            <img src="/ressources/manga1.webp" alt="couverture manga">
-        </div>
-        <div class="galerie2">
-            <img src="/ressources/manga7.jpg" alt="couverture manga">
-        </div>
-        <div class="galerie3">
-            <img src="/ressources/manga4.webp" alt="couverture manga">
+        <hr />
+        <div class="galeries">
+          <div class="galerie1">
+            <img src="/ressources/manga1.webp" alt="couverture manga" />
+            <h3>Titre</h3>
+          </div>
+          <div class="galerie2">
+            <img src="/ressources/manga7.jpg" alt="couverture manga" />
+            <h3>Titre</h3>
+          </div>
+          <div class="galerie3">
+            <img src="/ressources/manga4.webp" alt="couverture manga" />
+            <h3>Titre</h3>
+          </div>
+          <div class="galerie3">
+            <img src="/ressources/manga4.webp" alt="couverture manga" />
+            <h3>Titre</h3>
+          </div>
+          <div class="galerie3">
+            <img src="/ressources/manga4.webp" alt="couverture manga" />
+            <h3>Titre</h3>
+          </div>
         </div>
       </div>
     </main>
 
     <aside>
-      <div class="formulaire"></div>
+      <div class="formulaire">
+        <form action="get">
+          <label for="name">Votre nom</label>
+          <input type="text" id="name" placeholder="ex:Larue" />
+          <label for="prenom">Votre prénom</label>
+          <input type="text" id="prenom" placeholder="ex:Jeanne" />
+          <label for="mail">Votre adresse mail</label>
+          <input type="email" id="mail" placeholder="ex:mesdeux@gmail.com" />
+          <p class="label">Pour quelle raison voulez-vous nous contacter ?</p>
+          <input type="radio" id="sujet1" value="prix" />
+          <label for="sujet1">Connaître les tarifs </label>
+          <input type="radio" id="sujet2" />
+          <label for="sujet2"></label>
+          <input type="radio" id="sujet3" />
+          <label for="sujet3"></label>
+          <input type="radio" id="sujet4" />
+          <label for="sujet4"></label>
+        </form>
+      </div>
     </aside>
 
     <footer>
