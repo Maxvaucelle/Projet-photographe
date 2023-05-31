@@ -4,9 +4,25 @@ html, body{
     margin: 0%;
     padding: 0%;
 }
+
+h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 23px;
+    font-style: oblique;
+}
+
+header{
+    width: 100%;
+}
 nav{
-    background-color: gray;
+    display: flex;
+    background-color: #D9D9D9;
     padding: 2%;
+   
     
 }
 
@@ -16,4 +32,32 @@ main{
 
 #background img{
     width: 100%;
+    
 }
+
+.logo img{
+    width: 50%;
+}
+
+.logo{
+    justify-content: flex-start;
+}
+
+.navTexte{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-burger ul li{
+    list-style: none;
+}
+
+.menu-burger{
+    display: flex;
+    flex-direction: row;
+}
+
+
