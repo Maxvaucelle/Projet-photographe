@@ -9,7 +9,11 @@
   </head>
   <body>
     <header>
-      <img src="/ressources/wallpaper.jpg" alt="Photo montagne" />
+      <div class="slider">
+        <img src="/ressources/wallpaper.jpg" alt="Photo montagne" />
+        <img src="/ressources/wallpaper-nature.jpg" alt="photo chute d'eau" />
+        <img src="/ressources/img-nature.jpg" alt="photo lune" />
+      </div>
     </header>
     <nav>
       <div class="logo">
@@ -48,57 +52,94 @@
         <hr />
         <div class="galeries">
           <div class="galerie1">
-            <img src="/ressources/manga1.webp" alt="couverture manga" />
-            <h3>Titre</h3>
+            <div class="galerie1Content">
+              <img src="/ressources/manga1.webp" alt="couverture manga" />
+              <h3>Titre</h3>
+            </div>
+            <div class="galerie1Texte">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+                eius delectus tempore laboriosam, cupiditate maxime eligendi
+                praesentium eveniet modi consequatur voluptas obcaecati
+                voluptate suscipit error perspiciatis impedit veritatis nostrum
+                molestias!
+              </p>
+            </div>
           </div>
           <div class="galerie2">
-            <img src="/ressources/manga7.jpg" alt="couverture manga" />
-            <h3>Titre</h3>
+            <div class="galerie2Content">
+              <img src="/ressources/manga7.jpg" alt="couverture manga" />
+              <h3>Titre</h3>
+            </div>
+            <div class="galerie2Texte">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+                eius delectus tempore laboriosam, cupiditate maxime eligendi
+                praesentium eveniet modi consequatur voluptas obcaecati
+                voluptate suscipit error perspiciatis impedit veritatis nostrum
+                molestias!
+              </p>
+            </div>
           </div>
           <div class="galerie3">
-            <img src="/ressources/manga4.webp" alt="couverture manga" />
-            <h3>Titre</h3>
-          </div>
-          <div class="galerie3">
-            <img src="/ressources/manga4.webp" alt="couverture manga" />
-            <h3>Titre</h3>
-          </div>
-          <div class="galerie3">
-            <img src="/ressources/manga4.webp" alt="couverture manga" />
-            <h3>Titre</h3>
+            <div class="galerie3Content">
+              <img src="/ressources/manga4.webp" alt="couverture manga" />
+              <h3>Titre</h3>
+            </div>
+            <div class="galerie3Texte">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+                eius delectus tempore laboriosam, cupiditate maxime eligendi
+                praesentium eveniet modi consequatur voluptas obcaecati
+                voluptate suscipit error perspiciatis impedit veritatis nostrum
+                molestias!
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </main>
 
     <aside>
-      <div class="formulaire">
-        <form action="get">
-          <label for="name">Votre nom</label>
-          <input type="text" id="name" placeholder="ex:Larue" />
-          <label for="prenom">Votre prénom</label>
-          <input type="text" id="prenom" placeholder="ex:Jeanne" />
-          <label for="mail">Votre adresse mail</label>
-          <input type="email" id="mail" placeholder="ex:mesdeux@gmail.com" />
-          <p class="label">Pour quelle raison voulez-vous nous contacter ?</p>
-          <input type="radio" id="sujet1" value="prix" />
-          <label for="sujet1">Connaître les tarifs </label>
-          <input type="radio" id="sujet2" />
-          <label for="sujet2"></label>
-          <input type="radio" id="sujet3" />
-          <label for="sujet3"></label>
-          <input type="radio" id="sujet4" />
-          <label for="sujet4"></label>
-        </form>
-      </div>
+      <form method="get" id="form" action="#">
+        <label for="name">Votre nom</label>
+        <input type="text" id="name" placeholder="ex:Larue" /> <br />
+        <label for="prenom">Votre prénom</label>
+        <input type="text" id="prenom" placeholder="ex:Jeanne" /><br />
+        <label for="mail">Votre adresse mail</label>
+        <input
+          type="email"
+          id="mail"
+          placeholder="ex:mesdeux@gmail.com"
+        /><br />
+        <hr color="white" />
+        <p class="label">Pour quelle raison voulez-vous nous contacter ?</p>
+        <input type="radio" id="sujet1" name="sujet" value="prix" />
+        <label for="sujet1">Connaître les tarifs </label><br />
+        <input type="radio" id="sujet2" name="sujet" value="view" />
+        <label for="sujet2">Acceder à la galerie</label><br />
+        <input type="radio" id="sujet3" name="sujet" value="commandes" />
+        <label for="sujet3">Demander une prestation</label><br />
+        <input type="radio" id="sujet4" name="sujet" value="autre" />
+        <label for="sujet4">Autre ...</label><br />
+        <label for="question">Si autre, veuillez préciser :</label>
+        <textarea name="comment" id="question" cols="100" rows="10"> </textarea>
+      </form>
     </aside>
 
     <footer>
-      <div class="reseaux"></div>
+      <div class="reseaux">
+        <img src="/ressources/icons8-facebook-50.png" alt="logo fb" />
+        <img src="/ressources/icons8-instagram-50.png" alt="logo insta" />
+        <img src="/ressources/icons8-tic-tac-50.png" alt="logo tiktok" />
+      </div>
 
       <div class="carrousel"></div>
 
-      <div class="mentions"></div>
+      <div class="mentions">
+        <p>Mentions legales blabla mes deux</p>
+      </div>
     </footer>
+    <script src="slider.js"></script>
   </body>
 </html>
