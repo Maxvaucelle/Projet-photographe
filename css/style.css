@@ -1,9 +1,9 @@
 html,
 body {
-  line-height: 13px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0%;
   padding: 0%;
+
 }
 
 h1 {
@@ -12,13 +12,15 @@ h1 {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 30px;
   font-style: oblique;
 }
 
 h3 {
-  font-size: 22px;
-  font-weight: normal;
+  font-size: 28px;
+  font-weight: bolder;
+  padding-bottom: 2%;
+  color: grey;
 }
 
 p,
@@ -27,12 +29,9 @@ li {
 }
 
 header {
-    position:static;
-    z-index: 1;
   width: 100%;
   scroll-behavior: smooth;
 }
-
 
 .slider {
   width: 100%;
@@ -58,7 +57,7 @@ header {
 
 nav {
   position: sticky;
-  
+
   top: 0%;
   z-index: 5;
   display: flex;
@@ -69,6 +68,7 @@ nav {
 
 main {
   width: 100%;
+  background-color: #d9d9d9;
 }
 
 .logo img {
@@ -117,7 +117,7 @@ a:hover {
 }
 
 .presentationTitre {
-  background-color: #d9d9d9;
+  background-color: white;
   padding: 2%;
   text-align: center;
   width: 100%;
@@ -131,12 +131,15 @@ a:hover {
 
 .galeries {
   width: 100%;
+  background-color: white;
 }
 
 .galerie1,
 .galerie2,
 .galerie3 {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -163,10 +166,18 @@ a:hover {
 .galerie2Texte,
 .galerie3Texte {
   display: flex;
-  padding: 5%;
+  flex-direction: column;
+  justify-content: space-between;
+
   text-align: justify;
   color: gray;
   align-items: center;
+  width: 40%;
+  height: 200px;
+}
+
+.galerie2 .galerie2Content {
+  order: 2;
 }
 
 aside {
@@ -176,6 +187,7 @@ aside {
   background-color: rgb(190, 10, 10);
   color: #d9d9d9;
   margin-left: 20%;
+  margin-bottom: 3%;
 }
 
 #form {
@@ -185,7 +197,7 @@ aside {
 footer {
   width: 100%;
   background-color: black;
-  padding: 3%;
+  padding: 1%;
   color: #d9d9d9;
 }
 
