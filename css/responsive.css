@@ -1,0 +1,226 @@
+@media screen and (max-width:500px){
+    .slider{
+        max-height: 300px;
+        
+    }
+
+    p, li{
+        font-size: 15px;
+    }
+
+    h1, h2, h3{
+        font-size: 80%;
+    }
+
+    nav{
+        height: 100px;
+    }
+
+    .logo{
+        width: 30%;
+        margin-top: 5%;
+    }
+
+    .navTexte{
+        width: 40%;
+        text-align: center;
+    }
+
+    .menu-burger ul li{
+        padding: 1% 5%;
+    }
+
+    .presentationTitre{
+        height: 150px;
+    }
+
+    .presentationTitre p{
+        display: inline-block;
+        text-align: justify;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .galerie1Content,
+    .galerie2Content,
+    .galerie3Content {
+    margin: 5% 0;
+    }
+
+    .galerie1Texte,
+    .galerie2Texte,
+    .galerie3Texte {
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    aside{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #form{
+        width: 80%;
+        height: 400px;
+        padding: 0;
+    }
+
+    #form textarea{
+        width: 80%;
+        height: 20%;
+    }
+
+   
+    
+   
+}
+
+@media screen and (min-width:501px) and (max-width:800px) {
+    .slider{
+        max-height: 300px;
+        
+    }
+
+    p, li{
+        font-size: 15px;
+    }
+
+    h1, h2, h3{
+        font-size: 80%;
+    }
+
+    nav{
+        max-height: 150px;
+    }
+
+    .logo{
+        width: 30%;
+        margin-top: 5%;
+    }
+
+    .navTexte{
+        width: 40%;
+        text-align: center;
+    }
+
+    .menu-burger ul li{
+        padding: 1% 5%;
+    }
+
+    .presentationTitre{
+        height: 150px;
+    }
+
+    .presentationTitre p{
+        display: inline-block;
+        text-align: justify;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .galerie1Content,
+    .galerie2Content,
+    .galerie3Content {
+    margin: 5% 0;
+    }
+
+    .galerie1Texte,
+    .galerie2Texte,
+    .galerie3Texte {
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    aside{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #form{
+        width: 80%;
+        height: 400px;
+        padding: 10% 5% 5% 5%;
+    }
+
+    #form textarea{
+        width: 80%;
+        height: 20%;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1200px) {
+    .slider{
+        max-height: 300px;
+        
+    }
+
+    
+
+    h1, h2, h3{
+        font-size: 110%;
+    }
+
+    nav{
+        max-height: 150px;
+    }
+
+    .logo{
+        width: 30%;
+        margin-top: 5%;
+    }
+
+    .navTexte{
+        width: 40%;
+        text-align: center;
+    }
+
+    .menu-burger ul li{
+        padding: 1% 5%;
+    }
+
+    .presentationTitre{
+        height: 150px;
+    }
+
+    .presentationTitre p{
+        display: inline-block;
+        text-align: justify;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .galerie1Content,
+    .galerie2Content,
+    .galerie3Content {
+    margin: 5% 0;
+    }
+
+    .galerie1Texte,
+    .galerie2Texte,
+    .galerie3Texte {
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    aside{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #form{
+        width: 80%;
+        height: 400px;
+        padding: 10% 5% 0 5%;
+    }
+
+    #form textarea{
+        width: 80%;
+        height: 20%;
+    }
+}

@@ -27,11 +27,17 @@ li {
   font-size: 20px;
 }
 
+header{
+  width: 100%;
+  margin-right: 0%;
+}
+
 .slider {
   width: 100%;
   height: 700px;
   overflow: hidden;
   position: relative;
+  margin-right: 0%;
 }
 
 .slider img {
@@ -57,20 +63,20 @@ nav {
   background-color: #d9d9d9;
   padding: 2%;
   width: 100%;
+  align-items: center;
 }
 
 main {
   width: 100%;
   background-color: #d9d9d9;
+  margin-right: 0%;
 }
 
 .logo img {
   width: 50%;
 }
 
-.logo {
-  justify-content: flex-start;
-}
+
 
 .navTexte {
   width: 60%;
@@ -96,7 +102,7 @@ h1 .gris {
 
 .menu-burger {
   width: 100%;
-  background-color: #d9d9d9;
+ 
 }
 
 a {
@@ -109,6 +115,11 @@ a:hover {
   border: dotted red 1px;
 }
 
+.presentation{
+  width: 100%;
+  
+}
+
 .presentationTitre {
   background-color: white;
   padding: 2%;
@@ -118,8 +129,8 @@ a:hover {
 
 .presentationTitre p {
   color: grey;
-  margin-right: 20%;
-  margin-left: 20%;
+  
+  
 }
 
 .galeries {
@@ -174,13 +185,14 @@ a:hover {
 }
 
 aside {
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: center;
   background-color: rgb(190, 10, 10);
   color: #d9d9d9;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-bottom: 3%;
+  
 }
 
 #form {
@@ -192,6 +204,7 @@ footer {
   background-color: black;
   padding: 1%;
   color: #d9d9d9;
+  
 }
 
 .reseaux {
@@ -209,7 +222,7 @@ footer {
   overflow-x: scroll;
   overflow-y: hidden;
   scrollbar-width: none;
-  justify-content: justify;
+  
   background-color: #3b3a3a;
 }
 
@@ -220,5 +233,10 @@ footer {
 }
 
 .mentions {
+  display: flex;
+  justify-content: center;
   text-align: center;
+  margin-top: 2%;
+  padding: 1px 0;
+  
 }
