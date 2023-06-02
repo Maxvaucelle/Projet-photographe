@@ -3,7 +3,6 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0%;
   padding: 0%;
-
 }
 
 h1 {
@@ -28,17 +27,11 @@ li {
   font-size: 20px;
 }
 
-header {
-  width: 100%;
-  scroll-behavior: smooth;
-}
-
 .slider {
   width: 100%;
   height: 700px;
   overflow: hidden;
   position: relative;
-  margin-right: 2%;
 }
 
 .slider img {
@@ -208,6 +201,22 @@ footer {
 }
 .reseaux img {
   padding: 1%;
+}
+
+.carrousel {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  justify-content: justify;
+  background-color: #3b3a3a;
+}
+
+.carrousel img {
+  width: 20%;
+  max-height: 300px;
+  padding: 3%;
 }
 
 .mentions {
